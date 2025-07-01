@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding:0;
+    color: white;
+    justify-items: center;
+}
+form{
+    width: 400px;
+    padding: 30px;
+    border:  solid 5px rgb(191, 5, 5);
+    box-shadow: 2px 2px 0 rgb(169, 97, 4);
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+input{
+    height: 25px;
+    width: 250px;
+}
+textarea{
+    height: 50px;
+    width: 300px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    padding: 4px;
+    background-color: rgb(210, 89, 8);
+    margin-left: 150px;
+    border-radius: 20%;
+    
+}
+button:hover{
+    color: white;
+    background-color: rgb(191, 8, 8);
+}
+@media (max-width: 600px) {
+    form {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        border-width: 3px;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 70%;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    button {
+        margin-left: 70px;
+        width: 30%;
+    }
+}
